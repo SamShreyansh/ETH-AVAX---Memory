@@ -1,0 +1,17 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.26;
+
+contract types_of_mem
+{
+    string Name_of_owner = "Shrey"; //This is stored in the storage
+
+    function memeory_ex(uint x) public pure returns (uint) 
+
+    {
+
+    uint result; 
+    result = x * x; 
+    return result;
+
+    }
+}
